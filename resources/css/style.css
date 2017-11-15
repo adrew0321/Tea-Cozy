@@ -96,3 +96,15 @@ div {
 .item span {
   padding: 10px;
 }
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 750px;
+  width: 1200px;
+  margin: auto;
+}
+
+#locations .content {
+  text-align: center;
+  margin: auto;
+}

@@ -17,6 +17,17 @@ body {
   margin: 0;
 }
 
+h2,
+h3,
+h4 {
+  padding: 10px;
+  margin: auto;
+}
+
+p {
+  display: block;
+}
+
 header {
   position: fixed;
   height: 69px;
@@ -79,6 +90,7 @@ div {
 #totm {
   margin: auto;
   width: 1000px;
+  padding-top: 70px;
 }
 
 #totm .content {
@@ -93,20 +105,21 @@ div {
   height: 200px;
   display: block;
   margin: 10px;
-
-
 }
 
 .item span {
   text-align: center;
   display: block;
+  padding: 10px;
+  font-weight: bold;
 }
 
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin: auto;
+  margin: 69px auto;
+
 }
 
 #locations .content {
@@ -116,16 +129,17 @@ div {
 
 #locations .item {
   width: 300px;
-  margin: 15px;
+  margin: 15px 20px;
   text-align: center;
   background-color: black;
-
+  padding: 10px;
 }
 
 #contact {
   height: 200px;
   background-color: black;
   text-align: center;
+  margin: auto;
 
 }
 
